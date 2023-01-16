@@ -2,6 +2,9 @@ body {
     font-family: 'Open Sans' sans-serif;
     margin: 0;
     background-color: rgb(44, 41, 38);
+    position: relative;
+    padding: 68px 0px;
+    min-height: 100vh;
 }
 
 a {
@@ -146,9 +149,20 @@ main h1 {
 .food-item img {
     height: 23rem;
     width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     object-fit: cover;
 }
+img {
+    height: 38rem;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
 
+}
 .food-item-content {
     padding: 1rem;
     text-align: center;
@@ -159,15 +173,13 @@ main h1 {
 }
 
 .footer .copyright-text {
-    position: relative;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     text-align: center;
     padding: 34px 0px;
-    margin-top: 25px;
     background-color:rgb(238, 164, 80);
 }
-
-
-
 
 .btn {
     background-color: rgb(228, 157, 44);
@@ -179,8 +191,6 @@ main h1 {
 .btn:hover {
     background-color: rgb(221, 134, 34);
 }
-
-
 
 
 
